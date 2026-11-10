@@ -1,0 +1,19 @@
+# Linux kernel module build output
+*.o
+*.ko
+*.cmd
+*.mod
+*.mod.c
+Module.symvers
+modules.order
+
+# Generated Rust tooling files
+rust-project.json
+compile_commands.json
+
+# Editor and local environment files
+.vscode/
+.idea/
+*.swp
+*.swo
+linux/
